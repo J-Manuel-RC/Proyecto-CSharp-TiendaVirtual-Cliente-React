@@ -1,0 +1,14 @@
+.navbar {
+    background-color: rgb(53, 56, 56);
+    padding-bottom: 0;
+}
+
+.nav-link, .navbar-brand {
+    color: aliceblue;
+}
+
+.nav-link:hover {
+    color: rgb(154, 100, 183);
+    font-weight: bold;
+    border-bottom: 5px solid rgb(154, 100, 183);
+}

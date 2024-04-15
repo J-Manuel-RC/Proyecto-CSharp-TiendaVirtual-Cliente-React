@@ -1,0 +1,197 @@
+/* Estilos para hacer que la tabla ocupe toda la pantalla */
+.App {
+  text-align: center;
+}
+
+.table-container {
+  width: 97%; 
+  height: 100%; 
+  margin: auto;
+  padding-top: 20px;
+}
+.table-container .separador{
+  margin-top: 20px;
+}
+
+.separador .div-externo {
+  margin: 20px;
+  display: flex;
+  border: 1px solid rgb(182, 182, 182) ;
+  border-radius: 40px;
+}
+.separador .div-interno{
+  margin: 20px;
+  display: flex;
+  width: 100%; 
+  justify-content: center;
+  border: none;
+  border-radius: 25px;
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+table {
+  border-collapse: collapse;
+}
+
+.custom-table thead .top-derecha{
+    border-top-right-radius: 20px;
+}
+.custom-table thead .top-izquierda{
+    border-top-left-radius: 20px; 
+}
+.custom-table thead th{
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+}
+
+th, td {
+  border: none; 
+  text-align: center;
+}
+thead tr th {
+  text-align: center;
+}
+thead {
+  height: 45px;
+  /* background-color: #ff3c3c; */
+}
+.buscar input{
+  width: 300px;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  border: 1px solid rgb(182, 182, 182);
+  border-radius: 20px;
+  padding-left: 10px;
+}
+.buscar{
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.buscar label{
+  font-weight: bold;
+}
+
+.rojo{
+  background-color: rgb(152, 68, 226);
+  width: 100%;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.rojo p{
+  font-size: 1.2rem;
+  background-color: #ffffff;
+  margin-top: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 35px;
+  border-radius: 20px;
+  color: rgb(195, 34, 253);
+  display: flex;
+  align-items: center;
+}
+
+div.pup-up{
+  position: absolute;
+  bottom:  0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: #a3a3a371;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+div.pop-up-container{
+  position: relative;
+}
+div.pup-up span{
+  position: absolute;
+  top: -10px;
+  right: -7px;
+  background: #fff;
+  border-radius: 100px;
+  border: 1px solid #a2a2a2;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.table-container .pup-up.oculto{
+  display: none;
+}
+
+button {
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5px 30px ;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.buscar button#nuevo {
+  background-color: rgb(37, 255, 190);
+  border-radius: 20px;
+  /* margin-right: 30px; */
+  margin-left: 18px;
+}
+
+.mas {
+  
+  width: 350px;
+}
+.back {
+  background-color: #ffd445;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 30px;
+  margin-left: 20px;
+}
+
+td .edit, td .delete {
+  border: none;
+  background-color: transparent;
+}
+.edit svg{
+  fill: #ffd445;
+  }
+.delete svg {
+  fill: #ff3c3c;
+}
+.delete {
+  background-color: #ff3c3c;
+  border-radius: 20px;
+}
+.save {
+  background-color: #ffd445;
+  border-radius: 20px;
+}
+.update{
+  background-color: rgb(164, 67, 255);
+  border-radius: 20px;
+}
+.cancel {
+  background-color: rgb(7, 255, 172);
+  border-radius: 20px;
+}
+.no {
+  background-color: rgb(95, 255, 255);
+  border-radius: 20px;
+}
+
+/* -------------- */
+
